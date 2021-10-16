@@ -8,7 +8,7 @@
          float: right;
         }
         .thick-black-border {
-            border-color: white;
+            border-color: rgba(255, 255, 255, 0.404);
             border-width: 3px;
             border-style: solid;
             border-radius: 20px;
@@ -44,21 +44,21 @@
     <title>Portfolio</title>
   </head>
   <body>
-    
-    <!--Navigation bar-->
+    <div class="box">
+        <!--Navigation bar-->
     <nav>
-        <ul class="nav nav-pills justify-content-center mt-3">
+        <ul class="nav nav-pills justify-content-center mt-6">
             <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
+              <a class="nav-link" href="#about"><button class="btn btn-outline-primary">About Me</button></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
+              <a class="nav-link" href="#experience"><button class="btn btn-outline-primary">Experience</button></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#skills"><button class="btn btn-outline-primary">Skills</button></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
+                <a class="nav-link" href="#"><button class="btn btn-outline-primary">Contact Me</button></a>
             </li>
           </ul>
     </nav>
@@ -79,7 +79,7 @@
           </div>
         </div>
 
-      <div class="container">
+    <div class="container">
         <!--About me-->
         <div id="about">
             <h2 class="mb-3">About Me</h2>
@@ -89,7 +89,7 @@
 
         <!--Experience-->
         <div id="experience">
-            <h2 class="mb-3">Experience</h2>
+            <h2 class="mb-6">Experience</h2>
             <div class="card mb-3">
                 <div class="card-body">
                     <h4>Chargeback and Fraud Analyst</h4>
@@ -128,66 +128,78 @@
                 </div>
             </div>
         </div>
-        
-        <!--Skills-->
-        <div id="skills">
-            <h2>Skills</h2>
-            <div class="card mb-3">
-                <div class="card-body">
-                    <h4>Front-end</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                          HTML5
-                          <span class="badge bg-success rounded-pill">100%</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                          CSS3
-                          <span class="badge bg-success rounded-pill">100%</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                          Bootstrap
-                          <span class="badge bg-success rounded-pill">100%</span>
-                        </li>  
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                          Javascript
-                          <span class="badge bg-success rounded-pill">100%</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                          React
-                          <span class="badge bg-info rounded-pill">Loading..</span>
-                        </li>
-                      </ul>
-                </div>  
+        <hr/>
+        <div class="container-fluid">
+          <!--Skills-->
+        <h2>Skills</h2>
+        <div class="row mb-6" id="skills">
+            <div class="col-md-12" style="width: 100%;">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4>Front-end</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              HTML5
+                              <span class="badge bg-success rounded-pill">100%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              CSS3
+                              <span class="badge bg-success rounded-pill">100%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Bootstrap
+                              <span class="badge bg-success rounded-pill">100%</span>
+                            </li>  
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Javascript
+                              <span class="badge bg-success rounded-pill">100%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              React
+                              <span class="badge bg-info rounded-pill">Loading..</span>
+                            </li>
+                          </ul>
+                    </div>  
+                </div>
             </div>
-            <div class="card mb-3">
-                <div class="card-body">
-                    <h4>Design</h4>
-                    <div class="mb-3"><strong>Content development</strong></div>
-                    <ul class="list-group">
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                          Canva
-                          <span class="badge bg-success rounded-pill">100%</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                          CorelDraw
-                          <span class="badge bg-success rounded-pill">100%</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                          Lightroom
-                          <span class="badge bg-success rounded-pill">100%</span>
-                        </li>  
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                          Inshot
-                          <span class="badge bg-success rounded-pill">100%</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                          Shotcut
-                          <span class="badge bg-success rounded-pill"></span>
-                        </li>
-                      </ul>
-                </div>  
+            <div class="col-md-12" style="width: 100%">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4>Design</h4>
+                        <div class="mb-3"><strong>Content development</strong></div>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Canva
+                              <span class="badge bg-success rounded-pill">100%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              CorelDraw
+                              <span class="badge bg-success rounded-pill">100%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Lightroom
+                              <span class="badge bg-success rounded-pill">100%</span>
+                            </li>  
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Inshot
+                              <span class="badge bg-success rounded-pill">100%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Shotcut
+                              <span class="badge bg-success rounded-pill"></span>
+                            </li>
+                          </ul>
+                    </div>  
+                </div>
             </div>
         </div>
+        
+       <!--Contact Me-->
+        <div id="contact" class="mb-6">
+          <h2 class="mb-3">Contact Me</h2>
+        </div>
+        </div>
+    </div>
     </div>
   </body>
 </html>

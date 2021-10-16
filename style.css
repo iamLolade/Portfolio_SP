@@ -1,16 +1,33 @@
 /* Global Properties */
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
 
 body {
     /*background: #1f2235;*/
     font-family: "Baloo Tamma 2", cursive;
+    background: url("trial2.jpg") no-repeat fixed;
+    background-size: cover;
   }
   
-  /* Main Heading Font */
-  .m-heading {
+/* Main Heading Font */
+.m-heading {
     font-family: "Roboto Slab", serif;
   }
+
+/* Add a background color*/
+.box {
+    background-color: #f2f2f262;
+    opacity: 0.95;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+  }
+  .container-fluid {
+    
+    padding: 40px;
+    width: 80%;
+  }
+
 
   
