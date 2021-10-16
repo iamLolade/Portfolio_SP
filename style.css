@@ -24,10 +24,16 @@ body {
     border-radius: 5px;
   }
   .container-fluid {
-    
     padding: 40px;
     width: 80%;
   }
+
+/*Icon*/
+.extraClass{ 
+    font-size:40px; 
+}
+
+
 
 
   
