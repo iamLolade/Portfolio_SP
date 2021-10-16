@@ -1,0 +1,16 @@
+/* Global Properties */
+/* html {
+  scroll-behavior: smooth;
+} */
+
+body {
+    /*background: #1f2235;*/
+    font-family: "Baloo Tamma 2", cursive;
+  }
+  
+  /* Main Heading Font */
+  .m-heading {
+    font-family: "Roboto Slab", serif;
+  }
+
+  

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+       .mybtn {
+         float: right;
+        }
+        .thick-black-border {
+            border-color: black;
+            border-width: 3px;
+            border-style: solid;
+            border-radius: 20px;
+        }
+        .smaller-image {
+            height: 200px;
+            width: 250px;
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    
+    <!--Navigation bar-->
+    <nav>
+        <ul class="nav nav-pills justify-content-center mt-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <button class="btn btn-primary mybtn">
+                Contact Me
+            </button>
+          </ul>
+    </nav>
+
+      <!--Head-->
+      <div class="container-fluid text-center my-5">
+        <div class="row">
+            <img src="./image/Headshot.jpg" alt="Ololade's headshot" class="img-responsive thick-black-border smaller-image"/>
+            <h2 class="mt-3">Ololade Adeniyi Otemade</h2>
+            <p class="lead">
+                Enjoys graphic design, and front-end development
+            </p>
+    
+    
+            <button class="btn btn-info" href="">Download CV</button>
+          </div>
+        </div>
+      <div class="container">
+
+        <!--About me-->
+        <div id="about">
+            <h2 class="mb-3">About Me</h2>
+            <p>I'm Ololade Otemade, a graduate of Landmark University. I started my journey in tech in March 2021, by learning with free resources online. I'm currently in Decagon; a learning institue for software engineers. I am determined to apply my knowledge to foster the development of platforms within and beyond West Africa.</p>    
+        </div>
+        <br>
+
+        <!--Experience-->
+        <div id="experience">
+            <h2 class="mb-3">Experience</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h4>Chargeback and Fraud Analyst</h4>
+                    <div><strong>Feb 2021 - Oct 2021</strong></div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Follow up of dispute from the complaint to case resolution</li>
+                        <li class="list-group-item">Validation of data from internal and third party systems and ensuring appropriate
+                            actions are taken</li>
+                        <li class="list-group-item">Research and build dispute cases to recover funds for merchants using
+                            proprietary software.</li>
+                        <li class="list-group-item">Maintain departmental report and tracking</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h4>Corps Member - Ministry of Education</h4>
+                    <div><strong>Oct 2018 - Oct 2019</strong></div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Executed Ministerial duties as a NYSC member</li>
+                        <li class="list-group-item">Engaged in community development programs</li>
+                        <li class="list-group-item">Coordination of felow corp members (CLO duties)</li>
+                        <li class="list-group-item">Functioned as a physics tutor for Senior Secondary School 1, in Wesley Colege</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!--Skills-->
+        <div id="skills">
+            <h2>Skills</h2>
+        </div>
+    </div>
+  </body>
+</html>
