@@ -6,7 +6,7 @@ html {
 body {
     /*background: #1f2235;*/
     font-family: "Baloo Tamma 2", cursive;
-    background: url("trial2.jpg") no-repeat fixed;
+    background: url("./image/Backgroundimg.jpg") no-repeat fixed;
     background-size: cover;
   }
   
@@ -28,10 +28,43 @@ body {
     width: 80%;
   }
 
+/*Headshot*/
+  .thick-black-border {
+    border-color: rgba(255, 255, 255, 0.404);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+}
+.image-headshot {
+    height: 200px;
+    width: 250px;
+}
+
 /*Icon*/
 .extraClass{ 
     font-size:40px; 
 }
+
+/*Contact icon*/
+.smaller-image {
+    width: 40px;
+}
+
+/*Footer*/
+footer a{
+    color: black;
+}
+
+/*Animated button*/
+.animate__heartBeat {
+    --animate-duration: 8s;
+  }
+  
+/* This changes all the animations globally */
+  :root {
+    --animate-duration: 1s;
+    --animate-delay: 2s;
+  }
 
 
 
